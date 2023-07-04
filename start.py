@@ -15,4 +15,5 @@ class StockSnap(App):
         return Working()
 
 StockSnap().run()
+print("Running")
 
