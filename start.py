@@ -10,10 +10,10 @@ from kivy.uix.widget import Widget
 class Working(Widget):
     pass
 
-class StockSnap(App):
+class StockSnapApp(App):
     def build(self):
         return Working()
 
-StockSnap().run()
+StockSnapApp().run()
 print("Running")
 
